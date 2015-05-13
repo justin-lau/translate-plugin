@@ -42,4 +42,14 @@ return [
         'hint_translate' => 'Here you can translate messages used on the front-end, the fields will save automatically.',
         'hide_translated' => 'Hide translated',
     ],
+    'preferences' => [
+        'title' => 'Preferences',
+        'description' => 'Configure the behaviour of the translator.',
+        'enable_fulltext_search' => [
+            'label' => 'Enable fulltext search on translated model attributes.',
+            'comment' => 'Compatible with MySQL 5.6.0 or above.',
+            'mysql_only' => 'This option is compatible with MySQL database driver only. Using ":driver_name".',
+            'mysql_560_plus' => 'This option is compatible with MySQL 5.6.0+ only. MySQL version: ":mysql_version".',
+        ],
+    ],
 ];

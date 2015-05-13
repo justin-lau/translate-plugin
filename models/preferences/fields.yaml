@@ -1,0 +1,10 @@
+# ===================================
+#  Field Definitions
+# ===================================
+
+fields:
+
+    enable_fulltext_search:
+        label: rainlab.translate::lang.preferences.enable_fulltext_search.label
+        comment: rainlab.translate::lang.preferences.enable_fulltext_search.comment
+        type: checkbox
